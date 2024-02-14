@@ -33,7 +33,7 @@
     border-radius: 15px;
 }
 
-button {
+.card button {
     background: #F2CA50;
     border: none;
     width: 80px;
@@ -43,4 +43,9 @@ button {
     font-style: normal;
     cursor: pointer; 
     transform: translateX(-160%);
+}
+
+.card p.date {
+font-weight: bold;
+transform: translateX(-52%);
 }
