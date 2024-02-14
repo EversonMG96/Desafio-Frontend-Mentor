@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 400px;
     gap: 10px;
     border-radius: 15px;
     border: 1px solid #0D0D0D;
@@ -42,10 +43,40 @@
     font-weight: bolder;
     font-style: normal;
     cursor: pointer; 
-    transform: translateX(-160%);
+    transform: translateX(-130px);
 }
 
 .card p.date {
-font-weight: bold;
-transform: translateX(-52%);
+    font-weight: normal;
+    transform: translateX(-88px);
+}
+
+.card h1.title{
+    font-size: 25px;
+    transform: translateX(-28px);
+}
+
+.card p.par {
+    color: #736140;
+    transform: translateX(-20px);
+} 
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    transform: translateX(-86px);
+    gap: 15px;
+}
+
+.profile img{
+    width: 50px;
+    height: 50px;
+}
+
+.profile h3 {
+    font-size: 14px;
+    transform: translateY(10px);
 }
